@@ -11,16 +11,13 @@ The client supports the following commands:
 ### Help
 Use `--help` or `-h` to get help for the available commands.
 
-Example: 
-```buildiso -h```
-
 ### Building an ISO
 
 The `build` command can be used to build an ISO.
 The following example command will build an ISO file named `foo.iso`, which will install Debian linux in version 9 using `hostname` as the hostname. 
 
 Example: 
-```buildiso build foo.iso debian 9 hostname --token=1234567890ABCDEFGHIJKL```
+```uii_go_cli build foo.iso debian 9 hostname --token=1234567890ABCDEFGHIJKL```
 
 ### List available operation systems
 

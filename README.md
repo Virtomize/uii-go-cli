@@ -1,8 +1,8 @@
 # UUI CLI client
-Command line client for cloud api.
+This repository contains an implementation of a clie client for [**Virtomize Unattended Install Images**](https://uii.virtomize.com/) based on the Go API client.
 
 ## Requirements
-In order to use this client, you need an API token form the cloud api.
+In order to use this client, you need an API token for UII.
 This token can be created using the website. 
 
 ## Usage

@@ -24,18 +24,18 @@ Example:
 The `ls os` command can be used to list all available operating systems.
 
 Example:
-```buildiso ls os```
+```uii_go_cli ls os```
 
 ### List available packages for an operating systems
 
 The `ls package` command can be used to list all available operating systems.
 
 Example:
-```buildiso ls package debian 9```
+```uii_go_cli ls package debian 9```
 
 This command can produce quite a bit of output.
 Piping the result into less is a good way to address this. 
 
 ```shell
-buildiso ls package debian 9 | less
+uii_go_cli ls package debian 9 | less
 ```

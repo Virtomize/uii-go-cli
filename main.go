@@ -5,11 +5,11 @@ import (
 )
 
 type commandStructure struct {
-	Token string       `help:"The token used for authentication with the cloud-api." env:"CLOUDAPITOKEN" required:""`
-	Build buildCommand `cmd:"" help:"Build a self installing iso"`
+	Token string       `help:"The token used for authentication" env:"UIIAPITOKEN" required:""`
+	Build buildCommand `cmd:"" help:"Builds a unattended installing iso"`
 	Ls    struct {
-		Os      lsOsCommand       `cmd:"" help:"List available operation systems"`
-		Package lsPackagesCommand `cmd:"" help:"List available packages for a given operation systems"`
+		Os      lsOsCommand       `cmd:"" help:"Lists the available operation systems"`
+		Package lsPackagesCommand `cmd:"" help:"Lists the available packages for a given operation systems"`
 	} `cmd:"" help:"List objects"`
 }
 

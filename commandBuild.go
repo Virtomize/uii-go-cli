@@ -1,7 +1,7 @@
 package main
 
 import (
-	client "github.com/Virtomize/uii_go_api"
+	client "github.com/Virtomize/uii-go-api"
 )
 
 type buildCommand struct {

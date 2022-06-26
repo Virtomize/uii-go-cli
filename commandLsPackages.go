@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	client "github.com/Virtomize/uii_go_api"
+	client "github.com/Virtomize/uii-go-api"
 )
 
 type lsPackagesCommand struct {

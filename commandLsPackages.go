@@ -12,8 +12,12 @@ type lsPackagesCommand struct {
 }
 
 func (l *lsPackagesCommand) Run(ctx *context) error {
-	c := client.NewClient(ctx.token)
-	packageList, err := c.ReadPackages(client.PackageArgs{
+	c, err := client.NewClient(ctx.token)
+	if err != nil {
+		return err
+	}
+
+	packageList, err := c.Packages(client.PackageArgs{
 		Distribution: l.Distribution,
 		Version:      l.Version,
 	}, client.PackageOpts{Architecture: l.Architecture})

@@ -11,8 +11,12 @@ type lsOsCommand struct {
 }
 
 func (l *lsOsCommand) Run(ctx *context) error {
-	c := client.NewClient(ctx.token)
-	osList, err := c.ReadOperationSystems()
+	c, err := client.NewClient(ctx.token)
+	if err != nil {
+		return err
+	}
+
+	osList, err := c.OperatingSystems()
 	if err != nil {
 		return err
 	}

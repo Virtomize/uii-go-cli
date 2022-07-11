@@ -16,8 +16,12 @@ type buildCommand struct {
 }
 
 func (l *buildCommand) Run(ctx *context) error {
-	c := client.NewClient(ctx.token)
-	err := c.Build(l.Output, client.BuildArgs{
+	c, err := client.NewClient(ctx.token)
+	if err != nil {
+		return err
+	}
+
+	err = c.Build(l.Output, client.BuildArgs{
 		Distribution: l.Distribution,
 		Version:      l.Version,
 		Hostname:     l.Hostname,

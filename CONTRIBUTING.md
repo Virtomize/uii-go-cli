@@ -1,4 +1,4 @@
-# Contributing to uii-go-api
+# Contributing to uii-go-cli
 
 - [Code of Conduct](#code-of-conduct)
 - [Issues](#issues)
@@ -15,13 +15,13 @@ The uii-go-cli project follows the [Contributor Covenant Code of Conduct](https:
 
 You can contribute:
 
-- By opening an issue for discussion: For example, if you found a bug, creating a bug report using the [template](https://github.com/virtomize/uii-go-api/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) is the way to report it.
+- By opening an issue for discussion: For example, if you found a bug, creating a bug report using the [template](https://github.com/virtomize/uii-go-cli/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) is the way to report it.
 - By providing supporting details to an existing issue: For example, additional testcases.
-- By helping to resolve an issue: For example by opening a [Pull Request](https://github.com/virtomize/uii-go-api/pulls)
+- By helping to resolve an issue: For example by opening a [Pull Request](https://github.com/virtomize/uii-go-cli/pulls)
 
 ### Asking for Help
 
-Just open a [regular issue](https://github.com/virtomize/uii-go-api/issues/new) and describe your problem.
+Just open a [regular issue](https://github.com/virtomize/uii-go-cli/issues/new) and describe your problem.
 
 ## Pull Requests
 
@@ -31,12 +31,12 @@ This project uses [Mage](https://magefile.org/) which is a replacement for the c
 
 ### 1. Fork 
 
-Fork the project [on Github](https://github.com/virtomize/uii-go-api/) and clone your fork
+Fork the project [on Github](https://github.com/virtomize/uii-go-cli/) and clone your fork
 
 ```
-$ git clone git@github.com:username/uii-go-api.git
-$ cd uii-go-api
-$ git remote add upstream https://github.com/virtomize/uii-go-api.git
+$ git clone git@github.com:username/uii-go-cli.git
+$ cd uii-go-cli
+$ git remote add upstream https://github.com/virtomize/uii-go-cli.git
 $ git feth upstream
 ```
 
@@ -103,7 +103,7 @@ This ensures that your working branch has the latest changes from master.
 
 ### 6. Push
 
-If your commits are ready to go and passed all tests and linting, you can start creating a [Pull Requests](https://github.com/virtomize/uii-go-api/pulls) by pushing your work branch to your fork on GitHub.
+If your commits are ready to go and passed all tests and linting, you can start creating a [Pull Requests](https://github.com/virtomize/uii-go-cli/pulls) by pushing your work branch to your fork on GitHub.
 
 ```
 $ git push origin example-branch
@@ -120,7 +120,7 @@ the requirements below.
 
 Bug fixes and new features should include unit tests.
 
-Contributors guide: https://github.com/virtomize/uii-go-api/blob/master/CONTRIBUTING.md
+Contributors guide: https://github.com/virtomize/uii-go-cli/blob/master/CONTRIBUTING.md
 -->
 
 ##### Checklist
@@ -167,7 +167,7 @@ If there are reasons why you feel the PR should not be accepted, explain what th
 Be open to having your mind changed. 
 Be open to working with the contributor to make the Pull Request better.
 
-Also follow the [Code of Conduct](https://github.com/virtomize/uii-go-api/blob/master/CODE_OF_CONDUCT.md)
+Also follow the [Code of Conduct](https://github.com/virtomize/uii-go-cli/blob/master/CODE_OF_CONDUCT.md)
 
 When reviewing a Pull Request, the primary goals are for the codebase to improve and for the person submitting the request to succeed. 
 Even if a Pull Request is not accepted, the submitters should come away from the experience feeling like their effort was not wasted or unappreciated. 

@@ -7,7 +7,7 @@
 
 ## Code of Conduct
 
-The uii-go-cli project follows the [Contributor Covenant Code of Conduct](https://github.com/virtomize/uii-go-api/blob/master/CODE_OF_CONDUCT.md)
+The uii-go-cli project follows the [Contributor Covenant Code of Conduct](https://github.com/virtomize/uii-go-cli/blob/master/CODE_OF_CONDUCT.md)
 
 ## Issues
 

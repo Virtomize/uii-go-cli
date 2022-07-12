@@ -12,7 +12,7 @@ It is intended both for day to day use, and to demonstrate the usage of the API 
 
 ## Requirements
 In order to use this client, you need an API token form the cloud api.
-A token can be created using the [Virtomize website](virtomize.com).
+A token can be created using the [Virtomize website](https://uii.virtomize.com/).
 This token can be passed to each  command using `--token=123456`.
 Alternatively, the client will use the value provided in the `UIIAPITOKEN` environment variable.
 

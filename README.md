@@ -29,7 +29,7 @@ The following example command will build an ISO file named `foo.iso`, which will
 
 Example: 
 ```shell
-uii-go-cli build foo.iso debian 9 hostname --token=1234567890ABCDEFGHIJKL
+uii-go-cli build foo.iso debian 11 hostname --token=1234567890ABCDEFGHIJKL
 ```
 
 ### List available operation systems
@@ -47,14 +47,14 @@ The `ls package` command can be used to list all available operating systems.
 
 Example:
 ```shell 
-uii-go-cli ls package debian 9
+uii-go-cli ls package debian 11
 ```
 
 This command can produce quite a bit of output.
 Piping the result into less is a good way to address this. 
 
 ```shell
-uii-go-cli ls package debian 9 | less
+uii-go-cli ls package debian 11 | less
 ```
 
 # Contribution

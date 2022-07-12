@@ -31,7 +31,7 @@ This project uses [Mage](https://magefile.org/) which is a replacement for the c
 
 ### 1. Fork 
 
-Fork the project [on Github](https://github.com/virtomize/uii-go-cli/) and clone your fork
+Fork the project [on GitHub](https://github.com/virtomize/uii-go-cli/) and clone your fork
 
 ```
 $ git clone git@github.com:username/uii-go-cli.git
@@ -131,24 +131,24 @@ Contributors guide: https://github.com/virtomize/uii-go-cli/blob/master/CONTRIBU
 - [ ] documentation is added or changed
 ```
 
-Please fill out all details, feel free to skip not nessesary parts or if you're not sure what to fill in.
+Please fill out all details, feel free to skip not necessary parts or if you're not sure what to fill in.
 
-Once opened, the Pull Request is opend and will be reviewed.
+Once opened, the Pull Request is opened and will be reviewed.
 
 ### 8. Updates and discussion
 
 While reviewing you will probably get some feedback or requests for changes to your Pull Request. This is normal and a necessary part of the process to evaluate the changes and there correctness. 
 
-To make changes to an existsing Pull Request, make the changes to your local branch.
+To make changes to an existing Pull Request, make the changes to your local branch.
 Add a new commit including those changes and push them to your fork.
-The Pull Requests will automatically updated by GitHub.
+The Pull Requests will automatically be updated by GitHub.
 
 ```
 $ git add files/changed
 $ git commit
 $ git push origin example-branch
 ```
-**Approvement and Changes**
+**Approval and Changes**
 
 Whenever a contributor reviews a Pull Request they may find specific details that they would like to see changed or fixed. 
 These may be as simple as fixing a typo, or may involve substantive changes to the code you have written. 

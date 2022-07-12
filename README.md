@@ -25,7 +25,7 @@ Use `--help` or `-h` to print a list of all available commands.
 ### Building an ISO
 
 The `build` command can be used to build an ISO.
-The following example command will build an ISO file named `foo.iso`, which will install Debian linux in version 9 using `hostname` as the hostname. 
+The following example command will build an ISO file named `foo.iso`, which will install Debian linux in version 11 using `hostname` as the hostname. 
 
 Example: 
 ```shell
